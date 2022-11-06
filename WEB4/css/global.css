@@ -1,0 +1,27 @@
+:root{
+    --color-text-primary:#292929;
+    --color-text-secondary:#ffffff;
+    --color-bg-primary:#434B95;
+}
+*,
+*::after,
+*::before{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    
+}
+body{
+    font-size: 1.6rem;
+    font-family:'Russo One', sans-serif;
+    font-weight:400px;
+    background-color:var(--color-text-primary);
+}
+.section{
+    width:100%;
+    height:100vh;
+    padding: 4rem 2rem;
+}
